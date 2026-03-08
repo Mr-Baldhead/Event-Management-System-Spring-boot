@@ -15,33 +15,28 @@ Ett eventhanteringssystem för scoutorganisationer, byggt med Spring-boot och Th
 
 ```bash
 git clone <repository-url>
-cd event-management-system
+cd Event-Management-System-Spring-boot
 ```
 ### 3. Starta systemet
 
 ```bash
-docker-compose up --build
+mvn spring-boot:run
 ```
-
 
 ### 4. Öppna applikationen
 
 |  URL |
 |--------|
 | http://localhost:8080
+
 ---
 
 ## 🔐 Inloggningsuppgifter
 
 | Fält | Värde |
 |------|-------|
-| **Användare** | `admin´ |in´ |`admin´ |` |
-| **Lösenord** | `admin123´|
-
-###Log LoginInformation
-- User:admin
-- Lösen:admin123
-- Som oinloggad så omdirigeras du automatiskt till login.
+| **Användare** | admin |
+| **Lösenord** | admin123 |
 
 ---
 
@@ -86,3 +81,6 @@ docker-compose up --build
 - PUT    /api/registrations/{id}/cancel  - Avboka registrering
 - DELETE /api/registrations/{id}        - Ta bort registrering
 ```
+<img width="711" height="648" alt="517589556-827579b4-f3cf-4ee0-bc00-d08af1ce4dc1" src="https://github.com/user-attachments/assets/5203e7d5-b9bb-4c90-b2c8-cea7d9dabd89" />
+<img width="817" height="868" alt="517589579-91b27417-11e0-480d-84e8-aa7bb6bd8a79" src="https://github.com/user-attachments/assets/2b759015-b97e-4a09-8027-cb6274975dbd" />
+<img width="1017" height="933" alt="Skärmavbild 2026-03-08 kl  16 22 43" src="https://github.com/user-attachments/assets/aded9177-089d-40df-8540-039a7daaf900" />
